@@ -1,0 +1,112 @@
+.container {
+
+         
+         max-width: 1440px;
+         
+         nav {
+              
+            .nav-item {
+
+               .nav-link {
+                  font-size: $font-size-xs;
+                  color: $nav-text-color;
+                  padding: 0px 40px;
+                  font-weight: 500;
+               }
+               .nav-link:hover {
+                  color: $nav-hover-color;
+               }
+
+            }
+
+            .icon-style {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+
+               a {
+                  padding: 0px 37px;
+               }
+               .btn {
+                  background-color: $btn-background;
+                  color: $btn-color-header;
+                  border-color: #D2E1FF;
+                  border-radius: 2px;
+               }
+            }
+         }
+}
+
+.content-header {
+   background-image: url(./../images/heroimage.svg);
+   background-repeat: no-repeat;
+    background-size: cover;
+   
+
+   .container-fluid {
+      padding: 0px;
+
+      .carousel-inner {
+            
+         
+
+            .t-carousel {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               
+               
+               height: 700px;
+          
+               
+                
+                .text-carousel {
+                  max-width: 603px;
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: center;
+                 align-items: center;
+     
+                 h2 {
+                    font-size: $font-size-xxs;
+                    color: $header-title;
+                    text-transform: uppercase;
+                 }
+                 .subtitle {
+                    font-size: $font-size-llb;
+                    color: $header-title;
+                 }
+                 p {
+                    font-size: $font-size-ms;
+                    text-align: center;
+                    color: $header-par;
+                 }
+              }
+     
+            }
+         
+      } 
+
+      .carousel-indicators {
+         padding-top: 62px;
+         
+
+         button {
+             width: 10px;
+             height: 10px;
+             border-radius: 50%;
+             background-color: $btn-col-hed;
+             margin: 0px 5px;
+         }
+         .active {
+            background-color: $btn-act;
+         }
+      }
+
+       
+
+         
+      
+   }
+}
+   
